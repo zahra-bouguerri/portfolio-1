@@ -1,0 +1,257 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: black;
+}
+.hero{
+    width: 100%;
+    color:white;
+    overflow-x: hidden;
+}
+.nav-bar{
+    display: flex;
+   margin-top: 20px;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 30px;
+}
+span{
+    color:rgb(255, 196, 0);
+    font-size: 40px;
+}
+.nav-bar nav{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+    padding: 5px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(255, 196, 0);
+}
+nav #search{
+   position: relative;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+input{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 8px 12px;
+    padding-left: 30px;
+    border: rgb(255, 196, 0)2px solid;
+    font-size: 14px;
+    width: 45%;
+}
+#search i{
+    position: absolute;
+    color:rgb(255, 196, 0);
+    width: 17px;
+    top:20px;
+    left:9px
+}
+.contune{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    flex-wrap: wrap;
+    margin-right: 10%;
+}
+.text{
+   margin-left: 70px;
+}
+.text h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.auto{
+    font-weight: 600;
+    font-size: 60px;
+}
+.text h3{
+    font-size: 25px;
+}
+.contune img{
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+button{
+    margin: 30px;
+    background-color: rgb(255, 196, 0);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 5px 8px;
+    border:2px solid rgb(255, 196, 0);
+    border-radius: 30px;
+}
+button:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+    color: rgb(255, 196, 0);
+}
+.project{
+    margin: 40px 70px;
+   color: white;
+}
+.text2 h2{
+    font-size: 50px;
+    line-height: 49px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.text2 p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.form{
+  width: 300px;
+  height: 360px;
+  margin-bottom: 90px;
+  box-shadow: 1px 10px 20px rgb(255, 196, 0);
+  border-radius: 50px;
+  padding: 9px 20px;
+  border: 1px yellow solid;
+  text-align: center;
+}
+.form:hover{
+    transform: rotate(10deg);
+    transition: 0.6s ease-in-out;
+}
+.form img{
+width: 100px;
+margin: 6px 0;
+border-radius: 50%;
+}
+.form h3{
+    margin-top: 30px;
+}
+.form p{
+    font-size: 19px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.form img{
+    width: 100px;
+    border-radius: 50%;
+}
+.form button{
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(255, 196, 0);
+    border: 1px solid #FFDE59;
+    padding: 7px 25px;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 0;
+    box-shadow: rgba(219, 189, 16, 0.945) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.about{
+    color: white;
+    margin: 40px 70px;
+}
+.about h2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.about span{
+    font-weight: 400;
+}
+.about p{
+    font-size: 19px;
+    line-height: 35px;
+    margin-top: 7px; 
+    width: 53%; 
+}
+.contact{
+    color: white;
+    margin: 40px 70px;
+    text-align:center;
+}
+.contact h2{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.contact .card{
+    margin-top: 40px;
+}
+.card div{
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+.contact .card input{
+    width: 70%;
+    background-color:rgb(255, 196, 0);
+    padding: 9px 40px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+.card div i{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top: 20px;
+    left: 22px;
+}
+.contact .card textarea{
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 196, 0);
+    margin-left: 30px;
+}
+.send{
+    background: linear-gradient(rgb(255, 196, 0) ,rgb(255, 196, 0));
+    font-size: 19px ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.fin{
+    height: 50px;
+    background-color:rgb(255, 196, 0);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+.fin h3{
+    font-size: 20px;
+}
+.fin span{
+    font-size: 23px;
+    color: black;
+}
